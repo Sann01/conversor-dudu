@@ -1,0 +1,81 @@
+body{
+    background-color: #8f9094;
+ }
+ #tot{
+     background-color: #a80000;
+     width: 50vw;
+     height: 75vh;
+     margin-left: 25vw;
+     margin-top: 9vh;
+     border: 5px solid #353333;
+     border-radius: 10px;
+ }
+ .container{
+     margin-left: 18%;
+     margin-top: 3vh;
+     width: 5vw;
+ 
+ }
+ input{
+     border: solid 5px #000000;
+     width: 25vh;
+     height: 4.8vh;
+     margin-left: 180%;
+     border-radius: 7px;
+     font-size: large;
+     text-align: center;
+     margin-bottom: 19%;
+     float:left;
+     display: flex;
+ }
+ button{
+     margin-top: 6%;
+     padding: 15%;
+     margin-bottom: 18%;
+     width: 20vh;
+     margin-left: 220%;
+     text-align: center;
+     font-size: 1.2rem;
+     color: #000000;
+     background-color: #a80000;
+     border: 2px solid #fff;
+     float:left;
+     display: flex;
+     border-radius: 10px;
+     
+ }
+ #clean{
+     margin-top: 35%;
+     padding: 18%;
+     font-size: 1.2rem;
+     margin-bottom: 18%;
+     width: 20vh;
+     margin-left: 220%;
+     color: #fff;
+     background-color: #313330;
+     text-align: center;
+     border: 2px solid #000000;
+ }
+ button:hover{
+     background-color: #313330;
+ }
+ #clean:hover{
+     background-color: #660000;
+ }
+ 
+ @media(max-width: 400px){
+     #painel{
+         height: 50vh;
+         margin-top: 12%;
+         width: 60vw;
+     }
+     .conv{
+         margin-left: 6%;
+         margin-top: 18%;
+     }
+     #limpar{
+         margin-top: 400%;
+         margin-left: 95%;
+     }
+ }
+ 
